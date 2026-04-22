@@ -16,7 +16,7 @@ def optional(name: str, default: str = "") -> str:
     return default if v is None else v.strip()
 
 
-APP_NAME = "simple-api"
+APP_NAME = "ai_jobs_db"
 
 DB_TYPE = optional("DB_TYPE", "postgres").lower()  # postgres | mysql
 
